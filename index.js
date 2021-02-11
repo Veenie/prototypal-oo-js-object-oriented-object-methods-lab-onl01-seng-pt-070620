@@ -8,11 +8,14 @@ BoardMember.prototype.veto = function() {
  return `No, I must disagree`;
 };
 
-BoardMember.prototype.veto = function() {
- return `No, I must disagree`;
+BoardMember.prototype.approve = function() {
+ return `You can do that!`;
 };
 
-BoardMember.prototype.veto = function() {
- return `No, I must disagree`;
+BoardMember.prototype.doCharity = function() {
+ return `I like to help people.`;
 };
 
+BoardMember.prototype.releasePressStatement = function() {
+ return `No, I must disagree`;
+};
