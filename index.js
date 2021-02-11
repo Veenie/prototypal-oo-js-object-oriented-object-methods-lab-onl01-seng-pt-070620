@@ -17,5 +17,5 @@ BoardMember.prototype.doCharity = function() {
 };
 
 BoardMember.prototype.releasePressStatement = function() {
- return `No, I must disagree`;
+ return ``;
 };
